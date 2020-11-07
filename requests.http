@@ -2,6 +2,6 @@
 
 GET http://localhost:8080/api/json
 
-### XML using Jackson
+### XML using JAXB
 
-GET http://localhost:8080/api/jackson-xml
+GET http://localhost:8080/api/jaxb-xml

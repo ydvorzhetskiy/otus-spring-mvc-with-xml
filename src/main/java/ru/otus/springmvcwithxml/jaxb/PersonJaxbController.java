@@ -1,16 +1,16 @@
-package ru.otus.springmvcwithxml.jacksonxml;
+package ru.otus.springmvcwithxml.jaxb;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PersonXmlController {
+public class PersonJaxbController {
 
     @GetMapping(
-        value = "/api/jackson-xml",
+        value = "/api/jaxb-xml",
         produces = "application/xml"
     )
-    public PersonXmlDto jacksonXml() {
-        return new PersonXmlDto("Ivan", 18);
+    public PersonJaxbDto jacksonXml() {
+        return new PersonJaxbDto("Ivan", 18);
     }
 }
