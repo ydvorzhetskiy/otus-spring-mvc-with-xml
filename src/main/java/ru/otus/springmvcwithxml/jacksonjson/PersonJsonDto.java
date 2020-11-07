@@ -1,4 +1,4 @@
-package ru.otus.springmvcwithxml.json;
+package ru.otus.springmvcwithxml.jacksonjson;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
